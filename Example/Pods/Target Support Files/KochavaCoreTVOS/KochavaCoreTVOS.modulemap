@@ -1,0 +1,6 @@
+framework module KochavaCoreTVOS {
+  umbrella header "KochavaCoreTVOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

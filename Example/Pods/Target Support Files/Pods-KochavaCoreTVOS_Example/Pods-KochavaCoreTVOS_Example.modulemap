@@ -1,0 +1,6 @@
+framework module Pods_KochavaCoreTVOS_Example {
+  umbrella header "Pods-KochavaCoreTVOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

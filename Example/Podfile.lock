@@ -1,0 +1,16 @@
+PODS:
+  - KochavaCoreTVOS (0.1.0)
+
+DEPENDENCIES:
+  - KochavaCoreTVOS (from `../`)
+
+EXTERNAL SOURCES:
+  KochavaCoreTVOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KochavaCoreTVOS: 8d7bd38b530e42aeaef48b8d4ec958ee00a4f115
+
+PODFILE CHECKSUM: 2f8714ab5aa3703caa6ce0e5036a00fe8768eb77
+
+COCOAPODS: 1.8.4

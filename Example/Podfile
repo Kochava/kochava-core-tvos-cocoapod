@@ -1,11 +1,8 @@
 use_frameworks!
 
+platform :tvos, '9.0'
+
 target 'KochavaCoreTVOS_Example' do
   pod 'KochavaCoreTVOS', :path => '../'
 
-  target 'KochavaCoreTVOS_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

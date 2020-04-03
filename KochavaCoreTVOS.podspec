@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KochavaCoreTVOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KochavaCoreTVOS.'
+  s.summary          = 'The KochavaCore module of the Kochava tvOS SDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description  = <<-DESC
+  The KochavaCore module provides core support for all modules within the Kochava SDK.
+  DESC
 
-  s.homepage         = 'https://github.com/johnbushnell/KochavaCoreTVOS'
+  s.homepage         = 'http://www.kochava.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'johnbushnell' => 'jbushnell@kochava.com' }
-  s.source           = { :git => 'https://github.com/johnbushnell/KochavaCoreTVOS.git', :tag => s.version.to_s }
+  s.license          = { :type => 'Commercial', :file => 'LICENSE' }
+  s.author       = { 'Kochava' => 'support@kochava.com' }
+  s.source           = { :git => 'https://github.com/Kochava/kochava-core-tvos-cocoapod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.tvos.deployment_target = '9.0'
 
   s.source_files = 'KochavaCoreTVOS/Classes/**/*'
   
@@ -36,7 +36,13 @@ TODO: Add long description of the pod here.
   #   'KochavaCoreTVOS' => ['KochavaCoreTVOS/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'KochavaCoreTVOS/Classes/**/*.h'
+  s.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics'
+
+  s.platform     = :tvos, '9.0'
+  s.vendored_libraries = 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a', 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a'
+  s.preserve_paths = 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a', 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a'
+  s.library = 'KochavaCoreTVOS'
+  
+  s.swift_versions = '5.0'
 end

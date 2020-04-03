@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  KochavaCoreTVOS
 //
-//  Created by johnbushnell on 04/03/2020.
-//  Copyright (c) 2020 johnbushnell. All rights reserved.
+//  Created by John Bushnell on 04/03/2020.
+//  Copyright (c) 2020 Kochava. All rights reserved.
 //
 
 import UIKit
