@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KochavaCoreTVOS_Example' do
+  pod 'KochavaCoreTVOS', :path => '../'
+
+  target 'KochavaCoreTVOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
