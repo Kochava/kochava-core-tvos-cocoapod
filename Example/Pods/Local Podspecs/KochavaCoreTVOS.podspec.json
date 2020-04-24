@@ -1,6 +1,6 @@
 {
   "name": "KochavaCoreTVOS",
-  "version": "3.16.0",
+  "version": "3.17.0",
   "summary": "The KochavaCore module of the Kochava tvOS SDK.",
   "description": "The KochavaCore module provides core support for all modules within the Kochava SDK.",
   "homepage": "http://www.kochava.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Kochava/kochava-core-tvos-cocoapod.git",
-    "tag": "3.16.0"
+    "tag": "3.17.0"
   },
   "platforms": {
     "tvos": "9.0"
