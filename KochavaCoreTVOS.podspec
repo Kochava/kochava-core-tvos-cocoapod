@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KochavaCoreTVOS'
-  s.version          = '3.17.0'
+  s.version          = '4.0.0'
   s.summary          = 'The KochavaCore module of the Kochava tvOS SDK.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description  = <<-DESC
-  The KochavaCore module provides core support for all modules within the Kochava SDK.
+  The KochavaCore module provides core support for all modules within the Kochava SDK for the Apple tvOS platform.
   DESC
 
   s.homepage         = 'http://www.kochava.com'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Kochava/kochava-core-tvos-cocoapod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.tvos.deployment_target = '9.0'
+  s.tvos.deployment_target = '10.2'
 
   s.source_files = 'KochavaCoreTVOS/Classes/**/*'
   
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'KochavaCoreTVOS/Classes/**/*.h'
   s.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics'
 
-  s.platform     = :tvos, '9.0'
+  s.platform     = :tvos, '10.2'
   s.vendored_libraries = 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a', 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a'
   s.preserve_paths = 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a', 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a'
   s.library = 'KochavaCoreTVOS'

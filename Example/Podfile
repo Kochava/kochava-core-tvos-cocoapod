@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :tvos, '9.0'
+platform :tvos, '10.2'
 
 target 'KochavaCoreTVOS_Example' do
   pod 'KochavaCoreTVOS', :path => '../'
