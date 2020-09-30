@@ -42,7 +42,12 @@ Pod::Spec.new do |s|
   s.platform     = :tvos, '10.2'
   s.vendored_libraries = 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a', 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a'
   s.preserve_paths = 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a', 'KochavaCoreTVOS/Libraries/libKochavaCoreTVOS.a'
-  s.library = 'KochavaCoreTVOS'
+  # s.library = 'KochavaCoreTVOS'
   
   s.swift_versions = '5.0'
+
+  # Xcode 12 Bug Fix:  https://github.com/CocoaPods/CocoaPods/issues/10065#issuecomment-694268918
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
+
 end
