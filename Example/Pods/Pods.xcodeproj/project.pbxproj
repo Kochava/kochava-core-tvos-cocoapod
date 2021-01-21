@@ -19,13 +19,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		92D6AFE74178D562E0B394D4464A99D2 /* Pods-KochavaCoreTVOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7177359A8963BC987F92212B773F0B3 /* Pods-KochavaCoreTVOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A90AE563FC680DDBED420E00C2A326B8 /* Pods-KochavaCoreTVOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D08CBDC28AEF03FEBB64B20F4F44C8 /* Pods-KochavaCoreTVOS_Example-dummy.m */; };
-		FB34CE6EB064BF4BE7DA09BCFAAF525A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8143A63A7605FCCE182B0B916B4ED614 /* Foundation.framework */; };
+		1C4DC16AFA81C208B2FE97656FF4E0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE704B3F7EFE27740FC25A5CE60A6651 /* Foundation.framework */; };
+		364E0735778179FB20657AC0C640B7B6 /* Pods-KochavaCoreTVOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D08CBDC28AEF03FEBB64B20F4F44C8 /* Pods-KochavaCoreTVOS_Example-dummy.m */; };
+		6A55BD1BA43AB5A27CC415BF4B11B62A /* Pods-KochavaCoreTVOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7177359A8963BC987F92212B773F0B3 /* Pods-KochavaCoreTVOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E4184051369373D564D932700BB01EAA /* PBXContainerItemProxy */ = {
+		84A7BD089EA0DD940C32291FF62B7502 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -48,7 +48,6 @@
 		6D1876B73A6FAB9FABA53ED21FCA4E7B /* Pods-KochavaCoreTVOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KochavaCoreTVOS_Example-Info.plist"; sourceTree = "<group>"; };
 		780394E5B3EE98754E709D5B0294F2B2 /* KVAEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAEvent.h; path = KochavaCoreTVOS/Classes/KVAEvent.h; sourceTree = "<group>"; };
 		7A7832A48C315104694EEA5E286E5CED /* Pods-KochavaCoreTVOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KochavaCoreTVOS_Example.modulemap"; sourceTree = "<group>"; };
-		8143A63A7605FCCE182B0B916B4ED614 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		89B4D43A2722D60FD84F244E05DF3AFE /* KVAAsForContextObjectProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAAsForContextObjectProtocol.h; path = KochavaCoreTVOS/Classes/KVAAsForContextObjectProtocol.h; sourceTree = "<group>"; };
 		8B6330A9CA43294E7E30E538490A7305 /* KochavaCoreTVOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KochavaCoreTVOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		90257CCA0B241DCA804D00C5D81535D9 /* KochavaCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KochavaCore.h; path = KochavaCoreTVOS/Classes/KochavaCore.h; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		9E834B308854298E48C625ED2DD1FDEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9EBB65A234A0444054FFDC44825CFBC5 /* KVAEventSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAEventSender.h; path = KochavaCoreTVOS/Classes/KVAEventSender.h; sourceTree = "<group>"; };
 		A4E7612FDFF1D02FB867EE5A5B1150D1 /* KVACoreProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVACoreProduct.h; path = KochavaCoreTVOS/Classes/KVACoreProduct.h; sourceTree = "<group>"; };
+		AE704B3F7EFE27740FC25A5CE60A6651 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BA7DAD02D2CB8ECD888C813364418700 /* KVAProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVAProduct.h; path = KochavaCoreTVOS/Classes/KVAProduct.h; sourceTree = "<group>"; };
 		C1B6D9E2D1C028F6738D2D1CCB0874F0 /* Pods-KochavaCoreTVOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KochavaCoreTVOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7177359A8963BC987F92212B773F0B3 /* Pods-KochavaCoreTVOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KochavaCoreTVOS_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -72,11 +72,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A029C02F6E855AA1F547A98CBA1055A8 /* Frameworks */ = {
+		7DB5CA4A5F905B6266441065F9958F2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB34CE6EB064BF4BE7DA09BCFAAF525A /* Foundation.framework in Frameworks */,
+				1C4DC16AFA81C208B2FE97656FF4E0BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 		1F9FCB3618DC551B524D67B669081319 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D02E61C1D1A202565BB5EEA211202F55 /* tvOS */,
+				DCADEF5968BA4BD0936606315FB57A49 /* tvOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,10 +198,10 @@
 			);
 			sourceTree = "<group>";
 		};
-		D02E61C1D1A202565BB5EEA211202F55 /* tvOS */ = {
+		DCADEF5968BA4BD0936606315FB57A49 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				8143A63A7605FCCE182B0B916B4ED614 /* Foundation.framework */,
+				AE704B3F7EFE27740FC25A5CE60A6651 /* Foundation.framework */,
 			);
 			name = tvOS;
 			sourceTree = "<group>";
@@ -209,11 +209,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EF313F415786B9A52C692C2B49D39C32 /* Headers */ = {
+		13C6055BA265133A77CD623A48E6C53A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92D6AFE74178D562E0B394D4464A99D2 /* Pods-KochavaCoreTVOS_Example-umbrella.h in Headers */,
+				6A55BD1BA43AB5A27CC415BF4B11B62A /* Pods-KochavaCoreTVOS_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,17 +222,17 @@
 /* Begin PBXNativeTarget section */
 		CF92B6B61A4F496B017264CEF7AE3387 /* Pods-KochavaCoreTVOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FF284EB4BEBC0090AC440A1738B7380 /* Build configuration list for PBXNativeTarget "Pods-KochavaCoreTVOS_Example" */;
+			buildConfigurationList = BF3721E83075CE66D4C64EDE9F19277A /* Build configuration list for PBXNativeTarget "Pods-KochavaCoreTVOS_Example" */;
 			buildPhases = (
-				EF313F415786B9A52C692C2B49D39C32 /* Headers */,
-				4C53D5BE4D9222579F1594B06E9F1B61 /* Sources */,
-				A029C02F6E855AA1F547A98CBA1055A8 /* Frameworks */,
-				D7A1C72EB5D5A50D411A84035E7FB300 /* Resources */,
+				13C6055BA265133A77CD623A48E6C53A /* Headers */,
+				A3DAE151BD91B606E625BC354F6B2409 /* Sources */,
+				7DB5CA4A5F905B6266441065F9958F2C /* Frameworks */,
+				EEA2B15BE62A792B80614A8A6D2D5D10 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7DA7DC94A4EAF34C2F3EBC758BE240C0 /* PBXTargetDependency */,
+				367B400FB8D05AD84C2855877E45DEAB /* PBXTargetDependency */,
 			);
 			name = "Pods-KochavaCoreTVOS_Example";
 			productName = "Pods-KochavaCoreTVOS_Example";
@@ -268,7 +268,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7A1C72EB5D5A50D411A84035E7FB300 /* Resources */ = {
+		EEA2B15BE62A792B80614A8A6D2D5D10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,30 +278,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4C53D5BE4D9222579F1594B06E9F1B61 /* Sources */ = {
+		A3DAE151BD91B606E625BC354F6B2409 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90AE563FC680DDBED420E00C2A326B8 /* Pods-KochavaCoreTVOS_Example-dummy.m in Sources */,
+				364E0735778179FB20657AC0C640B7B6 /* Pods-KochavaCoreTVOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7DA7DC94A4EAF34C2F3EBC758BE240C0 /* PBXTargetDependency */ = {
+		367B400FB8D05AD84C2855877E45DEAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KochavaCoreTVOS;
 			target = C1FF8D9DFF8B930672F7368DB5FFD9DD /* KochavaCoreTVOS */;
-			targetProxy = E4184051369373D564D932700BB01EAA /* PBXContainerItemProxy */;
+			targetProxy = 84A7BD089EA0DD940C32291FF62B7502 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2FD4C92CC26BDB13E81132BA4B9690EF /* Debug */ = {
+		46D8762E8225D65E18E19F6AEBFA56D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9902964F3C892BCA30C27D41008E6435 /* Pods-KochavaCoreTVOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KochavaCoreTVOS_Example/Pods-KochavaCoreTVOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KochavaCoreTVOS_Example/Pods-KochavaCoreTVOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		642424F7C3CE41A9EF9CF6BF185E692E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -324,6 +358,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -362,10 +397,24 @@
 			};
 			name = Debug;
 		};
-		5365BF64EFE2EA7081C9BF9E709E40B2 /* Release */ = {
+		8C1141E652B5459945C7E15943BDBEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADFE63A798054A909AD92CE0752A482 /* KochavaCoreTVOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A070E7EA1F5E84D2F4E2A12C70C9BCD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -388,6 +437,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -422,12 +472,12 @@
 			};
 			name = Release;
 		};
-		7903D05CE2C68C934803E8B15BDD4B75 /* Release */ = {
+		F45237FA695132D19A069126FEA4A2A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B131B7EA0CACB7B8D85D94A515611CE /* KochavaCoreTVOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -436,25 +486,11 @@
 			};
 			name = Release;
 		};
-		9A4B8B9C87508FFF03C44DB1C271D9A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADFE63A798054A909AD92CE0752A482 /* KochavaCoreTVOS.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Debug;
-		};
-		B2581ED5B44469932C75968004668612 /* Debug */ = {
+		FC4FCCDA1554EFDC224419265706022D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91600856A606E049EAB9B9BDC9493117 /* Pods-KochavaCoreTVOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -481,40 +517,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		BE00DC9A552BE62D5827AC8ADBCB5889 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9902964F3C892BCA30C27D41008E6435 /* Pods-KochavaCoreTVOS_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KochavaCoreTVOS_Example/Pods-KochavaCoreTVOS_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KochavaCoreTVOS_Example/Pods-KochavaCoreTVOS_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -522,17 +524,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FD4C92CC26BDB13E81132BA4B9690EF /* Debug */,
-				5365BF64EFE2EA7081C9BF9E709E40B2 /* Release */,
+				642424F7C3CE41A9EF9CF6BF185E692E /* Debug */,
+				A070E7EA1F5E84D2F4E2A12C70C9BCD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FF284EB4BEBC0090AC440A1738B7380 /* Build configuration list for PBXNativeTarget "Pods-KochavaCoreTVOS_Example" */ = {
+		BF3721E83075CE66D4C64EDE9F19277A /* Build configuration list for PBXNativeTarget "Pods-KochavaCoreTVOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2581ED5B44469932C75968004668612 /* Debug */,
-				BE00DC9A552BE62D5827AC8ADBCB5889 /* Release */,
+				FC4FCCDA1554EFDC224419265706022D /* Debug */,
+				46D8762E8225D65E18E19F6AEBFA56D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -540,8 +542,8 @@
 		F344D78743A36250806CE511B2EA8988 /* Build configuration list for PBXAggregateTarget "KochavaCoreTVOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4B8B9C87508FFF03C44DB1C271D9A5 /* Debug */,
-				7903D05CE2C68C934803E8B15BDD4B75 /* Release */,
+				8C1141E652B5459945C7E15943BDBEB5 /* Debug */,
+				F45237FA695132D19A069126FEA4A2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
