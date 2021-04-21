@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KochavaCoreTVOS'
-  s.version          = '4.5.0'
+  s.version          = '4.6.0'
   s.summary          = 'The KochavaCore module of the Kochava tvOS SDK.'
 
 # This description is used to generate tags and improve search results.
