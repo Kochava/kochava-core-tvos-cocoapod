@@ -22,6 +22,9 @@ DerivedData
 # Bundler
 .bundle
 
+# Kochava
+Release Notes.md
+
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
 # Carthage/Checkouts
 
