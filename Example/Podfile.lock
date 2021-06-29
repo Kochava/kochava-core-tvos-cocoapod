@@ -1,5 +1,5 @@
 PODS:
-  - KochavaCoreTVOS (4.7.0)
+  - KochavaCoreTVOS (4.8.0)
 
 DEPENDENCIES:
   - KochavaCoreTVOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KochavaCoreTVOS: 5f01c9428bfb16ce429c8c804f034e95f0333245
+  KochavaCoreTVOS: 832f175222d55cafe488a10b14c32031b3ffdbbd
 
 PODFILE CHECKSUM: 075a15595224821592b601e6a8ccc6a371758359
 
