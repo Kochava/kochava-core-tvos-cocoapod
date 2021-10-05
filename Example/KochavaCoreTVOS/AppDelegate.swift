@@ -29,6 +29,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         // ⓘ Set to trace.  This will result in the KVACoreProduct being registered, and this will be prefaced by any other known modules which are included.  This will be printed to the log where they can be inspected.
         KVALog.shared.level = .trace
 
+        // KVACoreProduct
+        KVACoreProduct.shared.register()
+        
         return true
     }
     
