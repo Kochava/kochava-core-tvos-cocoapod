@@ -6,6 +6,16 @@
 
 <img src="https://storage.googleapis.com/kochava-web/2016/07/Kochava-horizontal-black-800x154.png" width="260" />
 
+## Deprecation Advisory
+
+This module was deprecated on March 9th, 2023.  With the release of version 6.1.1 of the Kochava Apple SDK, the transition from Objective-C to Swift was complete, and we discontinued all static library products in favor of xcframeworks.  Please contact support@kochava.com if you have any questions.  The link to the equivalent product as a Swift Package which contains the equivalent xcframework is listed below:
+
+[https://github.com/Kochava/Apple-SwiftPackage-KochavaCore](https://github.com/Kochava/Apple-SwiftPackage-KochavaCore)
+
+If you prefer to continue using cocoapods:
+
+[https://cocoapods.org/pods/Apple-Cocoapod-KochavaCore](https://cocoapods.org/pods/Apple-Cocoapod-KochavaCore)
+
 ## KochavaCore tvOS Module
 
 The KochavaCore module provides core support for all modules within the Kochava SDK for the Apple tvOS platform.
